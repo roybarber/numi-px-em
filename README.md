@@ -2,7 +2,7 @@
 
 ## What is this extension for?
 
-This extension allows you to easily convert PX to EM or REM units for your CSS
+This extension allows you to easily convert PX to EM or REM units for your CSS for the [numi](https://numi.io/) calculator
 
 ## Installation
 
