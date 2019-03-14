@@ -11,6 +11,10 @@ Simply download the .js file to your numi extensions directory.
 
 ## How to use it
 
-easy:
+if the default font size is 16px the below would convert 22px to em:
 
-`12 px to em`
+`pxem 22`
+
+if the default font size is different then pass it in after the value to convert:
+
+`pxem 22;18`
