@@ -1,7 +1,7 @@
-numi.addFunction({ "id": "pxem", "phrases": "px" }, function(values) {
+numi.addFunction({ "id": "pxem", "phrases": "pxem" }, function(values) {
     if (values.length === 1) {
-        return { parseInt(values[0]) / parseFloat(16) };
+        return { "double": values[0].double / 16 };
     } else if(values.length === 2 ) {
-        return { parseInt(values[0]) / parseFloat(values[1]) };
+        return { "double": values[0].double / values[1].double };
     }
 });
